@@ -46,3 +46,8 @@ void main(){
 
   d1 .place();
 }
+
+//Home work
+
+a  defghijklmno qrstuvwx z
+
