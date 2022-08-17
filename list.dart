@@ -17,7 +17,7 @@ void main(){
 
   //filled
   var l4 = List.filled(5, 1,growable: true);
-  l4.add(7);  //error, if we set growale to false
+  l4.add(7);  //error, if we set growable to false
   print(l4);
 
   //from
@@ -28,7 +28,7 @@ void main(){
   var l6= List.generate(5, (index) => index+2);
   print(l6);
 
-  //unmodifiale
+  //unmodifiable
   var l7 = List.unmodifiable(l1);
   //l7.add(20);   //if we tr to add element it will show error
   print(l7);
